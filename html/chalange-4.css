@@ -1,0 +1,40 @@
+
+header h1 {
+
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+  }
+  header {
+    background-color: rgb(219, 35, 90);
+    padding: 40px;
+}
+nav{
+    background-color: rgb(26, 25, 25);
+    overflow:hidden;
+    
+
+}
+nav a {
+    
+    text-decoration: none;
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+    float: left;
+}
+main{
+    text-align: center;
+    background-color: rgb(158, 84, 84);
+}
+h2 {
+    padding:1px 45px;
+}
+ p{
+    padding:0px 45px ;
+}
+#one{
+    position: sticky;
+    
+    top: 0px;
+}

@@ -1,0 +1,14 @@
+button{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(248, 211, 3);
+    background: rebeccapurple;
+    color: rgb(4, 4, 82);
+    font-size: large;
+    box-shadow: 1px 1px 2px darkblue;
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+}

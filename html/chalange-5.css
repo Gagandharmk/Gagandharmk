@@ -1,0 +1,95 @@
+.container-1,.container-2,.container-3{
+    display:flex;
+padding: 1px;
+}
+.container-1 .item-11{
+    flex-shrink: 5;
+    
+}
+.inside{
+    display:flex;
+    
+    flex-direction: column;
+    flex-grow: 3;
+    flex-shrink: 1;
+
+}
+.container-1-2{
+    display: flex;
+    flex-direction: row;
+}
+.container-2-2{
+    display: flex;
+    flex-direction: row;
+}
+.container-3-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-1-2,.container-2-2,.container-3-2{
+    display:flex;
+    
+    flex-basis: 1px;
+    flex-grow: 1;
+    margin: 0px;
+    border-radius: 5px;
+}
+.item-1,.item-11,.item-12,.item-13{
+   
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 1;
+    background-color: orange;
+    padding: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+.item-2{
+    
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 3;
+    background-color: orange;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.item-3{
+    
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 3;
+    background-color: orange;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.container-1-2 div{
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 3;
+    background-color: rgb(238, 237, 235);
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.container-2-2 div{
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 3;
+    background-color: rgb(238, 237, 235);
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.container-3-2 div{
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 3;
+    background-color: rgb(238, 237, 235);
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}

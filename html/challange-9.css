@@ -1,0 +1,39 @@
+*{
+   margin:0;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto 80%;
+    grid-gap: 5px;
+    
+}
+
+.main{
+    display: grid;
+    grid-template-columns: auto 10%;
+    grid-gap: 5px;
+    
+}
+.container2 {
+    display: grid;
+    grid-template-rows: 75px 400px 75px;
+    grid-gap: 5px;
+    
+}
+#item{
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+#item:hover{
+    background-color: rgb(234, 0, 255);
+    border: 5px solid black;
+    padding: 10px;
+    
+    box-shadow:3px 7px 10px 2px red, inset 8px 10px 10px 2px rgba(41, 231, 15, 0.89);
+    text-transform: capitalize;
+    background-image: url("User.png");
+   
+    background-size: 100% 100%;
+}

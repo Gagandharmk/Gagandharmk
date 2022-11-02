@@ -1,0 +1,236 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+.header-wrapper {}
+
+.container {
+    max-width: 1440px;
+    /* width: 70%; */
+    margin: 0 50px;
+    /* background-color: black; */
+
+
+}
+
+/* -------------------------------------------------------header section--------------------------------------------------- */
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.logo img {
+    width: 80px;
+    height: 76px;
+}
+
+.nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:first-child {
+    font-weight: bold;
+}
+
+.header-button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 40px;
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #DE1CF6, #7E34DC, #0FE59D);
+    font-family: 'Poppins',
+        sans-serif;
+    cursor: pointer;
+
+}
+
+
+
+/* ---------------------------------------------------------hero section---------------------------------------------------- */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero-heading {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 57px;
+}
+
+.hero-section h1,
+button,
+span {
+    color: #ffffff;
+}
+
+h1 {
+
+    font-size: 70px;
+    font-weight: 400;
+    margin-right: 40px;
+    background: linear-gradient(to right, #DE1CF6, #7E34DC, #0FE59D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-button {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #DE1CF6, #7E34DC, #0FE59D);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    box-shadow: #7E34DC 0px 5px 30px 1px;
+    cursor: pointer;
+}
+
+.hero-button {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+
+}
+
+div span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.hero-img-div {
+    max-width: 500px;
+
+}
+
+.hero-image {
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+    top: -85px;
+    width: 600px;
+
+}
+
+/* ------------------------------------------------------about-section----------------------------------------------------------- */
+.about-wrapper {
+    margin-top: 100px;
+}
+
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+.about-header {
+    max-width: 600px;
+    width: 100%;
+
+}
+
+.heading {
+    font-size: 64px;
+    line-height: 112%;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Playfair Display',
+        serif;
+
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffffff;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+
+.about-image {
+    max-width: 600px;
+
+}
+
+.about-image img {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------Characters----------------------------------------------------- */
+
+.character-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-412 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: -85px;
+}
+
+.char-type {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+}
+
+.char-1 {
+    width: 425px;
+    height: 604px;
+    background-image: url(../imges/Group\ 208.png);
+}
+
+.char-2 {
+    width: 425px;
+    height: 685px;
+}
+
+.char-3 {
+    width: 425px;
+    height: 602px;
+}

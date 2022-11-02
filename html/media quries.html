@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Neonderthaw&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Media quries</title>
+    <style>
+      .all{
+        box-sizing: border-box;
+        display: block;
+      }
+     
+        .a {
+          text-align: center;
+                            padding:5px;
+          border: 5px solid rgb(67, 109, 40);
+          margin: 5px;
+          background-color: red;
+          
+        }
+        .b {
+          text-align: center;
+                            color: rgb(63, 226, 58);
+          padding:5px;
+          border: 5px solid rgb(129, 255, 140);
+          margin: 5px;
+          background-color: rgb(119, 64, 207);
+          
+        }
+        .c {
+          text-align: center;
+        
+                  color: rgb(197, 33, 156);
+          padding: 5px;
+          border: 5px solid rgb(253, 97, 232);
+          margin: 5px;
+          background-color: rgb(16, 160, 218);
+          
+        }
+        .d {
+          text-align: center;
+                            color: rgb(230, 25, 25);
+          padding:5px;
+          border: 5px solid rgb(45, 235, 117);
+          margin: 5px;
+          background-color: rgb(230, 118, 14);
+          
+        }
+        h3{
+          max-height: 10%;
+          font-family: 'Dancing Script', cursive;
+          font-weight: bolder;
+          border: 50px;
+          background-color: darkseagreen;
+          background-attachment: initial;
+          
+        }
+      
+@media screen and (min-width:700px) and (max-width:1250px) {
+  .box{
+    width:100%;
+    height: 120px;
+    }
+  }
+
+
+
+      
+    </style>
+  </head>
+  <body>
+    <h3>
+      This is the screen orintation while working in diffrent screen invirement
+    </h3>
+    <br />
+    <br />
+    <br />
+    <div class="all">
+      <span class="a" class="box"> Name 1 </span> 
+      <span class="b" class="box">Name 2 </span>
+      <span class="c" class="box">Name 3 </span>
+      <span class="d" class="box">Name 4 </span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <form action="get" method="post">
+      <div class="one"><br>
+      <h1>Contact Form</h1>
+        <div id="hero"><span >pleace fill all the texts in the fields.</span></div>
+        <br><br><br>
+      </div>
+      <div class="two">
+        <hr />
+
+        <p>
+          Your Name: *<br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Full Name"
+            required
+          />
+        </p>
+        <p>
+          Your Email:* <br />
+          <input
+            type="email"
+            name="Email"
+            id="Email"
+            placeholder="Your Email Address"
+            required
+          />
+        </p>
+        <p>
+          Massage: <br />
+          <textarea
+            name="massage"
+            id=""
+            cols="40"
+            rows="5"
+            placeholder="Your massage to us"
+            required
+          ></textarea>
+        </p>
+        <p>
+          Subject:* <br />
+          <input type="text" name="Subject" id="subject" required />
+        </p>
+
+        <p style="text-align: center;"><input type="submit" value="send" /></p>
+       
+      </div>
+       <p class="hello"><input type="reset" value="reset" /></p>
+    </form>
+  </body>
+</html>

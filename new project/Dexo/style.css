@@ -1,0 +1,626 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #060B27;
+
+}
+
+.header-wrapper {
+    background: linear-gradient(0deg, rgba(14, 19, 48, 0) -156.13%, rgba(14, 19, 48, 0.3) 90.09%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(81.5485px);
+    padding: 40px 0px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #C561FF;
+
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.sign-in {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 23px;
+}
+
+.sign-in ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.btn-1 {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    background: linear-gradient(90deg, #C561FF 0%, #5533FF 100%);
+    box-shadow: 0px 9px 21px 0px rgba(155, 120, 255, 0.32);
+    border: none;
+    border-radius: 30px;
+    width: 112px;
+    height: 47px;
+    cursor: pointer;
+
+
+}
+
+.blink:hover {
+
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+/* ----------------------------------------------------hero-section------------------------------------------------ */
+.hero-wrapper {}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: url(./images/Background.png), url(./images/Background.png);
+    background-attachment: scroll, scroll;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 175% 30%, -10% 10%;
+
+}
+
+.hero-section::before {
+    content: "";
+    background: url(./images/Background.png) no-repeat 0 0;
+
+}
+
+.h-5 {
+    /* position: absolute; */
+    width: 300px;
+    height: 21px;
+    /* bottom: 0;
+    left: calc(50% - 150px);
+    top: 186px; */
+    margin: 30px 0px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* text-align: center; */
+
+    /* Gradients/02 */
+
+    background: linear-gradient(95.87deg, #F34079 4.95%, #FC894D 95.07%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.h-1 {
+    /* position: absolute; */
+    width: 820px;
+    height: 148px;
+    /* left: 310px;
+    top: 231px; */
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+
+}
+
+@media (max-width:900px) {
+    .h-1 {
+        width: 520px;
+        /* height: 148px; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .w-500 {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.h-5-2 {
+    /* position: absolute; */
+    width: 560px;
+    height: 64px;
+    /* left: 440px;
+    top: 403px; */
+    margin: 30px 0px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+    text-align: center;
+
+    color: #8F9BB7;
+
+}
+
+.buttons {
+    /* position: absolute; */
+    width: 353px;
+    height: 66px;
+    /* left: 543px;
+    top: 515px; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.btn-2 {
+    height: 66px;
+    width: 162px;
+    /* left: 543px;
+    top: 515px; */
+    border-radius: 40px;
+    color: white;
+    background: linear-gradient(90deg, #C561FF 0%, #5533FF 100%);
+    border: 1px solid #7A38FF;
+    cursor: pointer;
+
+}
+
+.btn-3 {
+    border: 1px solid #7A38FF;
+    border-radius: 40px;
+    height: 66px;
+    width: 162px;
+    cursor: pointer;
+    color: #7A38FF;
+}
+
+/* --------------------------------------------------The ultimate dex-----------------------------------------------*/
+
+.dex-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.tud {
+    text-shadow: 0px 0px 64px rgba(225, 194, 255, 0.48), 0px 0px 16px rgba(58, 54, 255, 0.24);
+    font-size: 56px;
+}
+
+.h6 {
+    height: 96px;
+    width: 560px;
+    /* left: 440px; */
+    /* top: 1305px;
+    border-radius: nullpx; */
+
+}
+
+.h-6 {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8F9BB7;
+
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin-top: 100px;
+}
+
+.services {
+
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #B4B6D01A;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 50px;
+
+    box-shadow: 0px 1px 3px 0px #FFFFFF33 inset;
+    backdrop-filter: blur(81.5485px);
+
+
+}
+
+.x-1 {
+    background: radial-gradient(53.11% 106.23% at 50% 0%, rgba(0, 196, 255, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+
+}
+
+.x-2 {
+    background: radial-gradient(53.11% 106.23% at 50% 0%, rgba(112, 0, 255, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+
+}
+
+.x-3 {
+    background: radial-gradient(53.11% 106.23% at 50% 0%, rgba(119, 255, 97, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+
+}
+
+.x-4 {
+    background: radial-gradient(53.11% 106.23% at 50% 0%, rgba(255, 187, 0, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+
+}
+
+.x-5 {
+    background: radial-gradient(53.11% 106.23% at 50% 0%, rgba(255, 82, 131, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+
+}
+
+.x-6 {
+    background: radial-gradient(53.11% 106.23% at 50% 0%, rgba(53, 233, 227, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+
+}
+
+
+.services img {
+    margin-bottom: 15px;
+
+}
+
+.services p {
+    color: #8F9BB7;
+}
+
+h3 {
+    color: white;
+    margin: 10px;
+}
+
+/* ------------------------------------------------------------Decenterlized---------------------------------------------------------------- */
+
+.decenter-wrapper {
+    margin: 150px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 600px;
+
+}
+
+.h-1-1 {
+    text-align: left;
+    text-shadow: 0px 0px 64px rgba(225, 194, 255, 0.48), 0px 0px 16px rgba(58, 54, 255, 0.24);
+    font-size: 56px;
+    max-width: 600px;
+}
+
+.h8 {
+    text-align: left;
+    margin: 30px auto;
+}
+
+.h7 {
+    color: white;
+    text-align: left;
+    margin: 5px 0px;
+}
+
+.list {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.chack {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+/* ----------------------------------------------------------------------------- Marshall Bock----------------------------------------------*/
+
+
+.marshall-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background: radial-gradient(58.43% 58.43% at 50% 0%, rgba(103, 33, 255, 0.24) 0%, rgba(197, 97, 255, 0.1) 47.92%, rgba(6, 11, 39, 0) 100%);
+
+}
+
+.marshall-wrapper img {
+    margin-top: 50px;
+}
+
+.marshall {
+    color: white;
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* -------------------------------------------------------------------Advantage------------------------------------------------------------------- */
+
+.advantage-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.h-1-2 {
+
+    text-shadow: 0px 0px 64px rgba(225, 194, 255, 0.48), 0px 0px 16px rgba(58, 54, 255, 0.24);
+    font-size: 56px;
+    max-width: 900px;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    gap: 20px;
+
+}
+
+.fst {
+
+    justify-content: flex-start;
+
+}
+
+.sec {
+    justify-content: flex-end;
+}
+
+.thi {
+    justify-content: center;
+
+}
+
+/* -----dflex-------- */
+.dflex {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background: radial-gradient(108.71% 100% at 50% 100%, rgba(0, 203, 255, 0.12) 0%, rgba(14, 19, 48, 0) 100%),
+        radial-gradient(140.73% 129.45% at 50% 0%, rgba(85, 51, 255, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+    padding: 20px 32px;
+    gap: 15px;
+    border: 1px solid rgba(180, 182, 208, 0.1);
+    box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(81.5485px);
+    border-radius: 10px;
+
+}
+
+/* --------------------------------------------------------custodial------------------------------------------------ */
+
+.custodial-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 200px 50px 50px 50px;
+
+}
+
+.custo {
+    width: 620px;
+    height: 490px;
+    border-radius: 20px;
+}
+
+.left-2 {
+    background: radial-gradient(108.71% 100% at 50% 100%, rgba(0, 203, 255, 0.12) 0%, rgba(14, 19, 48, 0) 100%),
+        radial-gradient(140.73% 129.45% at 50% 0%, rgba(85, 51, 255, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+    padding: 50px;
+
+}
+
+.right-2 {
+    background: radial-gradient(108.71% 100% at 50% 100%, rgba(103, 33, 255, 0.12) 0%, rgba(14, 19, 48, 0) 100%),
+        radial-gradient(140.73% 129.45% at 50% 0%, rgba(255, 82, 131, 0.12) 0%, rgba(14, 19, 48, 0) 100%);
+    padding: 50px;
+}
+
+.h-1-4 {
+    text-shadow: 0px 0px 64px rgba(225, 194, 255, 0.48), 0px 0px 16px rgba(58, 54, 255, 0.24);
+    font-size: 56px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.btn-4 {
+    box-shadow: 0px 20px 40px rgba(155, 120, 255, 0.32);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+hr {
+    max-width: 1250px;
+
+    margin: auto;
+
+}
+
+/* -------------------------------------------------Footer------------------------------------- */
+.footer-wrapper {
+    padding-top: 150px;
+}
+
+.fdf {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 100px; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.df-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.df-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hdr {
+    /* For Individuals */
+
+
+    width: 160px;
+    height: 28px;
+
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'salt'on, 'liga'off;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.ind-p {
+    width: 169px;
+    height: 24px;
+
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'salt'on, 'liga'off;
+
+    color: #8F9BB7;
+
+}
+
+.df-3 {
+    display: flex;
+    gap: 13px;
+}
+
+.sdf-p {
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #8F9BB7;
+
+}

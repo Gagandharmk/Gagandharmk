@@ -1,0 +1,29 @@
+table,
+tr,
+th,
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 90px;
+    text-transform: uppercase;
+}
+th,th{
+    background-color: rgb(56, 93, 212);
+}
+tfoot th{
+    background-color: chartreuse;
+}
+td{
+    background-color: darksalmon;
+}
+ #one{
+     width:max-content;
+    
+    text-transform: uppercase;
+    background-color: deeppink;
+    font-style: italic;
+}
+ul{
+    list-style-position: ;
+}

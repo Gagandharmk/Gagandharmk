@@ -1,0 +1,15 @@
+ "[html]": {
+        
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.associations": {
+        "*.html": "typescriptreact"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "jake.autoDetect": "on",
+    "grunt.autoDetect": "on",
+    "gulp.autoDetect": "on",
+    "editor.multiCursorModifier": "ctrlCmd"

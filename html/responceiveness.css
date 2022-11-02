@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+@media screen and (min-width: 700px) and (orientation: landscape){ 
+    
+            
+    
+        
+    .container{
+        display:flex;
+        
+    }
+    .box1{
+        background-color: rgb(59, 59, 59);
+    }    
+    .box2{
+        background-color: rgb(104, 103, 103);
+    }    
+    .box3{
+        background-color: rgb(168, 167, 167);
+    }    
+    .box4{
+        background-color: rgb(199, 196, 196);
+    }    
+        
+    
+    .box{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        flex: 1;
+        color: yellow;
+       
+    }
+}
+@media screen and (min-width: 300px) and (max-width:700px)  { 
+        
+        
+    
+        h1{
+            font-size: 16Px;
+        }
+        
+        
+        .box1{
+            background-color: rgb(59, 59, 59);
+        }    
+        .box2{
+            background-color: rgb(104, 103, 103);
+        }    
+        .box3{
+            background-color: rgb(168, 167, 167);
+            
+        }    
+        .box4{
+            background-color: rgb(199, 196, 196);
+        }    
+        
+            
+        }
+        .box{
+        
+            
+            width: 50%;
+            
+            text-align: center;
+            padding: 50px;
+            
+            color: brown;
+            float:left;
+
+        }
+        
+        
+    
+    @media screen and (min-width: 00px) and (max-width:400px)  { 
+        
+        
+    
+        .container{
+            display: grid;
+            
+            
+        }
+        h1{
+            font-size: 12px;
+        }
+        .box1{
+            background-color: rgb(59, 59, 59);
+        }    
+        .box2{
+            background-color: rgb(104, 103, 103);
+        }    
+        .box3{
+            background-color: rgb(168, 167, 167);
+        }    
+        .box4{
+            background-color: rgb(199, 196, 196);
+        }    
+            
+        
+        .box{
+            font-size: smaller;
+            width: 100%;
+            
+            text-align: center;
+            padding: 10px;
+            
+            color: rgb(29, 248, 0);
+        }
+        
+        
+    }
